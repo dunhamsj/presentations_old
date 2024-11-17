@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{geometry}[letterpaper,margin=1in]
+
+\newcommand{\thornado}{\texttt{thornado}}
+\newcommand{\amrex}{\texttt{AMReX}}
+
+\begin{document}
+
+\begin{center}
+A Discontinuous Galerkin Method for General Relativistic Hydrodynamics in \thornado
+\end{center}
+
+We are developing a solver for the general relativistic hydrodynamics equations assuming a conformally-flat approximation, a discontinuous Galerkin (DG) method for spatial discretization, and an explicit strong-stability-preserving Runge-Kutta method for temporal discretization. The solver makes use of \amrex\ for parallel-capabilities. Our solver has been benchmarked against several challenging test-problems, and results from these problems will be presented, along with a discussion of the DG method and two limiters necessary for the high-order methods.
+
+\end{document}

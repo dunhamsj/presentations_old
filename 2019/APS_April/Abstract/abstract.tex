@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+\pagestyle{empty}
+\parindent=0pt
+\parskip=5pt
+\usepackage{amsmath}
+\usepackage{xcolor}
+\begin{document}
+
+% -------------------------------------------
+% Comments
+% -------------------------------------------
+
+% Note that the actual abstract submission process must now be done
+% by filling out a web form at
+% 
+%    http://abs.aps.org/
+% 
+% However, it is recommended to prepare your abstract using this
+% template, so that all co-authors can agree on all the details.
+% Then, when the time comes to submit the abstract, you will have
+% just have to cut and paste the information from this abstract
+% into the APS web page.
+% 
+% Note that it is permissible to use latex constructs in author,
+% title, and abstract entries when filling the web form.
+%
+% For pointers about the process of submitting the abstract to the
+% APS web site, see http://www.physics.rutgers.edu/~dhv/aps_abstracts/ .
+
+
+% -------------------------------------------
+% General info and title
+% -------------------------------------------
+
+SORTING CATEGORY: L1 (Simulation Methods and Implementation) \\
+CATEGORY TYPE: Computational Physics
+
+TITLE: A Discontinuous Galerkin Method for General Relativistic Hydrodynamics in thornado
+
+% TITLENOTE:
+
+% -------------------------------------------
+% Author 1
+% -------------------------------------------
+
+NAME: Sam Dunham \\
+EMAIL: samuel.j.dunham@vanderbilt.edu \\
+AFFIL: Department of Astronomy, Vanderbilt University \\
+AFFIL: Department of Physics, University of Tennessee--Knoxville
+
+% Note: Affiliations do NOT need to include the address information.
+%       I suggest to keep it short.  If you wish, it could be, e.g.,
+%       "Department of Physics and Astronomy, Rutgers University"
+%       but the shorter the better.
+
+% Note: In the case of multiple authors with the same affiliation,
+%       the affiliation should be left blank except for the last
+%       author of the series.  When it comes time to do the actual
+%       web submission, if you click "Same as Submitter" to fill
+%       out the information for the first author, you might have to
+%       erase the Affiliation information if the second author is
+%       at the same institution.
+
+% -------------------------------------------
+% Author 2 (repeat as needed for Author 3 etc)
+% -------------------------------------------
+
+NAME: Eirik Endeve \\
+EMAIL: endevee@ornl.gov \\
+AFFIL: Oak Ridge National Laboratory
+
+NAME: Anthony Mezzacappa \\
+EMAIL: mezz@utk.edu \\
+AFFIL: University of Tennessee--Knoxville
+
+NAME: Jesse Buffaloe \\
+EMAIL: jbuffal1@vols.utk.edu \\
+AFFIL: Department of Physics, University of Tennessee--Knoxville
+
+% -------------------------------------------
+ABSTRACT:
+% -------------------------------------------
+
+Discontinuous Galerkin\footnote{Cockburn, B., \& Shu, C.-W. (2001), J. Sci. Comput., 16, 173} methods have been applied to special relativistic hydrodynamics, but little is known about their application to general relativistic hydrodynamics and/or problems in curvilinear coordinates. We are developing such a solver, with an eye strongly towards core-collapse supernovae (CCSNe). We show results from three test problems: The first is a 2D, special relativistic Kelvin-Helmholtz instability problem, showing the code's ability to resolve turbulence; the second is a 2D, special relativistic Riemann problem, which demonstrates the code's ability to resolve strong shocks; and the third is the standing accretion shock instability problem, a crucial element of the neutrino-driven CCSN explosion mechanism\footnote{Blondin, et al., (2003), ApJ, 584, 971}, which tests the code's ability to handle curvilinear coordinates in a stationary background spacetime. These problems also test the code's use of limiters, such as the slope and positivity limiters. We are developing this code under the thornado framework, and will make use of AMReX\footnote{LBNL} to add AMR capabilities. S.D., E.E., A.M., and J.B. acknowledge support from the NSF Gravitational Physics Program (NSF-GP 1505933 and 1906692).
+
+%, while at the same time being general enough to be applicable in other areas of astrophysical hydrodynamics. 
+\end{document}

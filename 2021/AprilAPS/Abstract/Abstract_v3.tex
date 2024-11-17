@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{geometry}[1in]
+
+\begin{document}
+
+\begin{center}
+Abstract (1,300 character max, currently at 1,285)
+\end{center}
+
+\begin{center}
+thornado-Hydro: A Discontinuous Galerkin Method for General Relativistic Hydrodynamics with an Eye towards Simulating Core-Collapse Supernovae
+\end{center}
+
+We present results from thornado [1], a neutrino-hydrodynamics code being developed for simulations of core-collapse supernovae that uses high-order-accurate discontinuous Galerkin (DG) methods [2]. Here, our primary focus is on the module that solves the hydrodynamics equations under the conformally-flat approximation (CFA) to general relativity (GR) [3], and its coupling to Poseidon [4], a CFA gravity solver. GR is needed to capture properly, among other things, the compactness of the proto-neutron star and, in turn, the neutrino luminosities emanating from it (e.g., see [5]). We discuss details of the numerical method and show results from the self-similar collapse of a polytropic star, as well as the adiabatic collapse of a 15 solar mass progenitor. The latter requires a tabulated, nuclear equation of state to capture the dynamics up to bounce. The results from each of these test problems are compared with their Newtonian counterparts [6]. We also discuss progress on our work to develop a DG neutrino transport solver under the CFA.
+
+[1] Dunham et al. 2020 J. Phys.: Conf. Ser. 1623 012012
+
+[2] Cockburn \& Shu 2001 JSC 16 173
+
+[3] Wilson et al. 1996 PRD 54 1317
+
+[4] Roberts et al. 2021 (in prep.)
+
+[5] Bruenn et al. 2001 ApJ 560 326
+
+[6] Pochik et al. 2020 arXiv: 2011.04680
+
+\end{document}

@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: DunhamSamuel_AstroNumConferenceProceedings2019.aux
+The style file: iopart-num.bst
+Database file #1: bibfile.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in CHIMERA
+You've used 50 entries,
+            3033 wiz_defined-function locations,
+            954 strings with 12592 characters,
+and the built_in function-call counts, 47239 in all, are:
+= -- 5327
+> -- 672
+< -- 6
++ -- 353
+- -- 264
+* -- 3205
+:= -- 5306
+add.period$ -- 0
+call.type$ -- 50
+change.case$ -- 4
+chr.to.int$ -- 6
+cite$ -- 51
+duplicate$ -- 4331
+empty$ -- 4512
+format.name$ -- 221
+if$ -- 10829
+int.to.chr$ -- 0
+int.to.str$ -- 50
+missing$ -- 582
+newline$ -- 160
+num.names$ -- 50
+pop$ -- 1140
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 523
+stack$ -- 0
+substring$ -- 7195
+swap$ -- 1294
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 617
+width$ -- 52
+write$ -- 433
+(There was 1 warning)

@@ -1,0 +1,345 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%-------------------------------------------------------------------------------
+
+\newcommand{\thornado}{\texttt{thornado}}
+\newcommand{\poseidon}{\texttt{Poseidon}}
+\newcommand{\amrex}{\texttt{AMReX}}
+
+\documentclass{beamer}
+
+
+\usepackage{subcaption}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+% To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline} % To remove the footer line in all slides
+
+% To replace the footer line in all slides with a simple slide count
+% uncomment this line
+%\setbeamertemplate{footline}[page number]
+
+% To remove the navigation symbols from the bottom of all slides
+% uncomment this line
+\setbeamertemplate{navigation symbols}{}
+
+} % END \mode<presentation>
+
+% Allows including images
+\usepackage{graphicx}
+
+% Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{booktabs}
+
+% --- TITLE PAGE ---
+
+\title[Committee Meeting]{Sam's n-th Committee Meeting}
+
+\author{Samuel J. Dunham}
+\institute[Vanderbilt University]
+{
+Vanderbilt University \\
+\medskip
+\textit{samuel.j.dunham@vanderbilt.edu}
+}
+\date{August 29, 2022}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+% Table of contents slide, comment this block out to remove it
+\begin{frame}
+\frametitle{Overview}
+\tableofcontents
+\end{frame}
+
+% --- PRESENTATION SLIDES ---
+
+% -----------------------
+\section{Project Overview}
+% -----------------------
+
+\begin{frame}
+\frametitle{Project Overview}
+
+\textbf{Primary Goals}
+\begin{enumerate}
+  \item Develop RKDG solver for 3+1 GRHD equations within \thornado{},
+        assuming XCFC
+  \item Do 1D CCSN simulations
+  \item Investigate role of GR in supernova hydrodynamics,
+        in particular the evolution of the SASI
+\end{enumerate}
+
+\end{frame}
+
+% -----------------------
+\section{Research Update}
+% -----------------------
+
+\begin{frame}
+\frametitle{Research Update}
+
+\textbf{Code Development (since last time)}
+\begin{itemize}
+  \item Modified solver to work under XCFC instead of CFC
+        (mostly changes to coupling with gravity solver (\poseidon))
+  \item Implementing AMR via AMReX (ongoing)
+  \item Coupling to \poseidon{} with \amrex{} (ongoing)
+  \item Coupling to neutrino transport solver with \amrex{} (ongoing)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Ongoing Work}
+
+% The "c" option specifies centered vertical alignment,
+% while the "t" option is used for top vertical alignment
+\begin{columns}[c]
+
+\column{.45\textwidth} % Left column and width
+
+\textbf{SASI Study}
+\begin{itemize}
+  \item Investigate effect(s) of GRHD on SASI
+  \item Have answered: ``How does GRHD affect SASI?"
+        (enough for publication?)
+  \item Working on: ``Why does GRHD affect SASI as it does?"/
+        "What determines the growth rate?"
+\end{itemize}
+
+\column{.5\textwidth} % Right column and width
+
+\begin{figure}
+\captionsetup[subfigure]{labelformat=empty}
+
+\centering
+
+% Hack to make figures look nice. Learn proper way to do this
+
+\hspace{-6em}
+\begin{subfigure}[c]{0.25\textwidth}
+   \includegraphics[width=2.0\textwidth]%
+   {fig.GrowthRateComparison_HeatMap.png}
+   \caption{}
+\end{subfigure}
+\hspace{3.5em}
+\begin{subfigure}[c]{0.25\textwidth}
+   \includegraphics[width=2.0\textwidth]%
+   {fig.FrequencyComparison_1D_Rs.png}
+   \caption{}
+\end{subfigure}
+
+\end{figure}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Ongoing Work}
+
+% The "c" option specifies centered vertical alignment,
+%  while the "t" option is used for top vertical alignment
+\begin{columns}[c]
+
+\column{.45\textwidth} % Left column and width
+
+\textbf{1D Adiabatic gravitational collapse problem in parallel with
+        multi-level mesh }
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]%
+  {fig.AdiabaticCollapse_XCFC_GF_Alpha.png}
+  \caption*{Metric fields look smooth.}
+\end{figure}
+
+\column{.5\textwidth} % Right column and width
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]%
+  {fig.AdiabaticCollapse_XCFC_AF_S.png}
+  \caption*{Hydro fields have jumps at refinement boundaries.}
+\end{figure}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Ongoing Work}
+
+\begin{itemize}
+  \item Methods paper
+  \begin{itemize}
+    \item Have a good draft of introduction and physical model section
+    \item Ready to start generating data for test-problem section
+  \end{itemize}
+  \item Coupling to neutrino transport solver
+  \begin{itemize}
+    \item Testing timestepper (not producing expected results with neutrinos
+          turned off)
+    \item 1D CCSN simulation
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+%--------------------
+\section{Future Work}
+%--------------------
+
+\begin{frame}
+\frametitle{Future Work}
+
+\begin{itemize}
+  \item Code Development
+  \begin{itemize}
+    \item Fix issue with tally when using mesh refinement
+    \item 3D Hydrodynamics
+          ($\sim$two weeks of work, depending on method of choice)
+    \item Coupling with Neutrino Transport Module
+          ($\sim$one week of work)
+  \end{itemize}
+  \item Science Targets
+  \begin{itemize}
+    \item For dissertation
+    \begin{itemize}
+      \item SASI Study (2D and 3D) ($\sim$two months)
+      \item Low-mass 1D CCSN Simulation
+            ($\sim$two months pending status of neutrino transport)
+      \item High-mass 1D CCSN Simulation
+            ($\sim$two months pending status of neutrino transport)
+    \end{itemize}
+    \item Post-dissertation
+    \begin{itemize}
+        \item Multi-D CCSN simulations
+    \end{itemize}
+\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+%----------------------------
+\section{Future Career Plans}
+%----------------------------
+
+\begin{frame}
+\frametitle{Future Career Plans}
+
+\centering
+\textbf{Graduate in May 2023(?)}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Future Career Plans}
+
+\textbf{Plan A}
+\begin{itemize}
+  \item 1-2 post-docs (maybe one more year for dissertation)
+  \item Faculty position
+\end{itemize}
+
+\textbf{Plan B}
+\begin{itemize}
+  \item 1-2 post-docs (maybe one more year for dissertation)
+  \item Staff position at national lab
+\end{itemize}
+
+\textbf{Plan C}
+\begin{itemize}
+  \item Industry
+  \begin{itemize}
+    \item R\&D for someone (renewable energy would be nice)
+    \item Quantitative analyst
+    \item IT
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Considerations}
+
+\begin{itemize}
+  \item Location is paramount
+        \begin{itemize}
+          \item Will post-doc institutions allow remote work?
+        \end{itemize}
+  \item Want long-term job that can comfortably support a family of $\sim$four
+\end{itemize}
+
+\end{frame}
+
+\end{document}

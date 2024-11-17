@@ -1,0 +1,13 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\begin{document}
+\begin{align*}&\frac{\partial\boldsymbol{U}}{\partial t}+\frac{\partial\boldsymbol{F}}{\partial x}=\boldsymbol{0}\\
+=&\frac{\partial\boldsymbol{U}}{\partial t}+\frac{\partial\boldsymbol{F}}{\partial\boldsymbol{U}}\,\frac{\partial\boldsymbol{U}}{\partial x}\\
+=&\frac{\partial\boldsymbol{U}}{\partial t}+\boldsymbol{R\,\Lambda\, R}^{-1}\,\frac{\partial\boldsymbol{U}}{\partial x}\\
+=&\frac{\partial\left(\boldsymbol{R}^{-1}\,\boldsymbol{U}\right)}{\partial t}+\boldsymbol{\Lambda}\,\frac{\partial\left(\boldsymbol{R}^{-1}\,\boldsymbol{U}\right)}{\partial x}\\
+=&\frac{\partial\boldsymbol{W}}{\partial t}+\boldsymbol{\Lambda}\,\frac{\partial\boldsymbol{W}}{\partial x}=\boldsymbol{0},\\
+&\boldsymbol{\Lambda}\equiv\text{diag}\left[\lambda_{1},\lambda_{2},\cdots,\lambda_{n}\right]\end{align*}
+\end{document}

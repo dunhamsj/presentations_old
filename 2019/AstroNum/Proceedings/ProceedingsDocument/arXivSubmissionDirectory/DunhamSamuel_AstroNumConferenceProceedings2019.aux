@@ -1,0 +1,141 @@
+\relax 
+\bibstyle{iopart-num}
+\citation{*}
+\citation{Mezzacappa2005}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}\protected@file@percent }
+\citation{Cardall2013,Shibata2011}
+\citation{CockburnShu1998,HesthavenWarburtonNodalDGMethods}
+\citation{AMReX}
+\citation{ThompsonDuncan1993}
+\citation{Muller2016}
+\citation{Dimmelmeier2002}
+\citation{AGILEBOLTZTRAN,CHIMERA,FORNAX,ALCAR,PROMETHEUSVERTEX,COCONUTVERTEX,ZELMANI,FLASH,GR1D,Kotake,Nagakura}
+\citation{Chu2019,Endeve2015,Radice2013,Kitzmann2016}
+\citation{Teukolsky2016}
+\citation{BauerDG}
+\citation{RezzollaZanottiRelativisticHydrodynamics}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Physical Model}{2}\protected@file@percent }
+\newlabel{Eq:Hydro}{{1}{2}}
+\newlabel{Eq:Prim2Cons}{{2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Numerical Method}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Overview of the DG method}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Basis Functions}{3}\protected@file@percent }
+\newlabel{Eq:ApproxSolution}{{6}{3}}
+\citation{Bassi2013}
+\citation{CockburnShu2001}
+\citation{ShuOsher1988}
+\newlabel{Eq:Approx}{{8}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}The Galerkin Method}{4}\protected@file@percent }
+\newlabel{Eq:WeakForm1}{{9}{4}}
+\newlabel{Eq:ODE}{{10}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Time-Stepping}{4}\protected@file@percent }
+\citation{CockburnShu2001}
+\citation{CockburnShu1998}
+\citation{CockburnShu1998}
+\citation{FuShu2017}
+\citation{CockburnShu2001}
+\newlabel{Eq:SSP}{{11}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Slope Limiter}{5}\protected@file@percent }
+\citation{RadiceRezzolla2011}
+\citation{Qin2016}
+\citation{RadiceRezzolla2012}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Conservative Correction}{6}\protected@file@percent }
+\newlabel{eq.minmod}{{14}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Bound-Preserving Limiter}{6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Preliminary Numerical Results}{6}\protected@file@percent }
+\newlabel{sec.results}{{4}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Relativistic Kelvin--Helmholtz Instability Problem}{6}\protected@file@percent }
+\citation{MignoneBodo2005}
+\citation{RadiceRezzolla2012}
+\citation{RadiceRezzolla2012}
+\citation{RadiceRezzolla2012}
+\citation{DelZannaBucciantini2002}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Rest-mass density for the relativistic Kelvin--Helmholtz instability problem at times $t=1.38$ (top-left), $t=1.80$ (top-right), $t=2.40$ (bottom-left), and $t=3.00$ (bottom-right). The instability can be seen to grow and develop from the linear to the non-linear regime, and the final results agree qualitatively with published results in \cite  {RadiceRezzolla2012}.\relax }}{7}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{Fig:KHI}{{1}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Strong-Scaling Test}{7}\protected@file@percent }
+\citation{DelZannaBucciantini2002}
+\citation{DelZannaBucciantini2002}
+\citation{BaumgarteShapiroNumericalRelativity}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Strong-scaling results for a 3D Kelvin--Helmholtz instability problem with $32^{3}$ elements using 1, 2, 4, 8, and 16 MPI processes, normalized to wall-time when running serially. The dotted line shows what we would expect from linear scaling. We consistently achieve at least linear scaling.\relax }}{8}\protected@file@percent }
+\newlabel{Fig:StrongScaling}{{2}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Relativistic 2D Riemann Problem}{8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Relativistic 1D SAS Problem}{8}\protected@file@percent }
+\newlabel{eq.NewtonianLapse}{{21}{8}}
+\citation{Blondin2003}
+\citation{Harten1983}
+\citation{Quirk1994}
+\citation{Quirk1994}
+\citation{Muller2010}
+\citation{Blondin2003}
+\citation{Blondin2003}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Log plot of the pressure at $t=0.4$ for a relativistic 2D Riemann problem from \cite  {DelZannaBucciantini2002}. The left panel shows the results obtained using characteristic limiting and the right plot shows the results obtained using component-wise limiting. The pressure in the right plot is much more oscillatory, particularly in the lower left quadrant, showing the advantages of using characteristic limiting.\relax }}{9}\protected@file@percent }
+\newlabel{Fig:2DRP}{{3}{9}}
+\citation{Walk2006}
+\citation{BlondinMezzacappa2006}
+\citation{Blondin2003}
+\citation{Blondin2003}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces This plot shows the primitive rest-mass density, $\rho $, throughout the evolution of a GR, 1D SAS with four different resolutions. The evolution is shown in shades of grey, with later times being darker. The initial and final states are shown with red solid and dashed lines, respectively. The perturbation is an overdense shell that passes through the shock, and with sufficient resolution the shock moves by only a few kilometers over the 300 ms interval, an interval that is several times longer than the typical timescale of the evolution of the instability, when it develops.\relax }}{10}\protected@file@percent }
+\newlabel{Fig:GR_SAS}{{4}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Relativistic 2D SAS Problem}{10}\protected@file@percent }
+\citation{Dumbser2014,Fambri2018}
+\citation{Laiu2019}
+\citation{Hunter2007}
+\citation{OliphantNumPy}
+\citation{Turk2011yt}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Log plot of the polytropic constant (a proxy for entropy) of the 2D, GR SAS shown at four different times during the evolution of the system: 129 ms, when the shock is still fairly spherical; 175 ms, when the shock has sloshed toward the north pole; 441 ms, when the shock has sloshed back towards the south pole; and 527 ms, the last snapshot before the shock reaches the outer boundary.\relax }}{11}\protected@file@percent }
+\newlabel{Fig:GR_SASI}{{5}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Summary/Future Work}{11}\protected@file@percent }
+\bibdata{bibfile}
+\bibcite{Mezzacappa2005}{1}
+\bibcite{Cardall2013}{2}
+\bibcite{Shibata2011}{3}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Plotted against the radial coordinate $r$ are: the lapse function $\alpha $, the lapse function in the weak field limit $\alpha _{N}$, the specific enthalpy $h$ (normalized to the speed of light), the conformal factor $\psi $, the conformal factor in the weak field limit $\psi _{N}$, and the Lorentz factor $W$, all for the initial conditions. The Lorentz factor and the specific enthalpy are angle-averaged quantities, while (for this problem) the conformal factor and lapse function are intrinsically 1D and time-independent. Since $\alpha _{N}$ and $\psi _{N}$ deviate from unity by $\mathcal  {O}\left (20\%\right )$, this problem is securely in the GR regime in terms of spacetime curvature, and the deviation of the specific enthalpy and the Lorentz factor from unity shows that this problem is GR in terms of the fluid velocities, both bulk and thermal. Inset: a 2D plot of the polytropic constant for the initial conditions. The perturbation is visible as a shell that varies in magnitude with the cosine of the polar angle. The polytropic constant of the shell is higher (darker color) than the ambient value near the north pole and lower (lighter color) than the ambient value near the south pole.\relax }}{12}\protected@file@percent }
+\newlabel{Fig:GR1D}{{6}{12}}
+\bibcite{CockburnShu1998}{4}
+\bibcite{HesthavenWarburtonNodalDGMethods}{5}
+\bibcite{AMReX}{6}
+\bibcite{ThompsonDuncan1993}{7}
+\bibcite{Muller2016}{8}
+\bibcite{Dimmelmeier2002}{9}
+\bibcite{AGILEBOLTZTRAN}{10}
+\bibcite{CHIMERA}{11}
+\bibcite{FORNAX}{12}
+\bibcite{ALCAR}{13}
+\bibcite{PROMETHEUSVERTEX}{14}
+\bibcite{COCONUTVERTEX}{15}
+\bibcite{ZELMANI}{16}
+\bibcite{FLASH}{17}
+\bibcite{GR1D}{18}
+\bibcite{Kotake}{19}
+\bibcite{Nagakura}{20}
+\bibcite{Dimmelmeier2006}{21}
+\bibcite{Chu2019}{22}
+\bibcite{Endeve2015}{23}
+\bibcite{Radice2013}{24}
+\bibcite{Kitzmann2016}{25}
+\bibcite{Teukolsky2016}{26}
+\bibcite{BauerDG}{27}
+\bibcite{RezzollaZanottiRelativisticHydrodynamics}{28}
+\bibcite{Bassi2013}{29}
+\bibcite{CockburnShu2001}{30}
+\bibcite{ShuOsher1988}{31}
+\bibcite{FuShu2017}{32}
+\bibcite{RadiceRezzolla2011}{33}
+\bibcite{Qin2016}{34}
+\bibcite{RadiceRezzolla2012}{35}
+\bibcite{MignoneBodo2005}{36}
+\bibcite{DelZannaBucciantini2002}{37}
+\bibcite{Blondin2003}{38}
+\bibcite{BaumgarteShapiroNumericalRelativity}{39}
+\bibcite{Harten1983}{40}
+\bibcite{Quirk1994}{41}
+\bibcite{Muller2010}{42}
+\bibcite{Walk2006}{43}
+\bibcite{BlondinMezzacappa2006}{44}
+\bibcite{Dumbser2014}{45}
+\bibcite{Fambri2018}{46}
+\bibcite{Laiu2019}{47}
+\bibcite{Hunter2007}{48}
+\bibcite{OliphantNumPy}{49}
+\bibcite{Turk2011yt}{50}

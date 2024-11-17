@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\begin{document}
+
+\begin{center}
+
+{\Large General Relativistic Hydrodynamics with Dynamical Spacetimes in thornado}
+
+\end{center}
+2,250 character limit, currently at 2,109 characters\vspace{1em}
+
+We present recent results from thornado, a radiation-hydrodynamics code we are developing primarily for application to core-collapse supernova (CCSN) simulations, using high-order-accurate Runge--Kutta discontinuous Galerkin methods [1]. We have validated our code against test problems in both special and general relativistic (GR) regimes with curvilinear coordinates using stationary spacetimes [2]. Here, we present results from test problems involving dynamical spacetimes, which are achievable after coupling thornado to Poseidon [3], the latter of which solves the 3+1 Einstein equations assuming the conformally-flat approximation (CFA) [4] to GR. Specifically, we evolve the self-similar collapse of a spherically symmetric star with a polytropic equation of state (EoS) [5]. We compare these results with those obtained using the non-relativistic hydrodynamics and gravity solvers of thornado and Poseidon, respectively [6]. Preliminary results show that the two solutions agree until central densities reach about $10^{11}$ g cm$^{-3}$, at which point the relativistic solution begins to collapse at a faster rate. The results from this problem represent a significant step toward realistic CCSN simulations in conformally-flat GR with thornado. We also show results relating to the stability of a TOV star assuming a stationary spacetime, as well as results when that assumption is relaxed, and compare with published results in [7]. These encouraging results demonstrate that thornado has been successfully extended to GR and coupled to Poseidon. In this poster, we describe thornado and our choice of numerical methods, show our latest results, and discuss future work, including incorporation of a tabulated nuclear EoS.
+
+[1] Cockburn, B. et al. 2001 J. Sci. Comp. 16:173
+
+[2] Dunham, S. J. et al. 2020 J. Phys.: Conf. Ser. 1623 012012
+
+[3] Roberts, J. et al. (in prep.)
+
+[4] Wilson, J. R. et al. 1996 Phys. Rev. D, 54, 1317
+
+[5] Yahil, A. 1983 Ap. J., 265:1047
+
+[6] Endeve, E. et al. 2019 J. Phys.: Conf. Ser. 1225 012014
+
+[7] Cheong, P. C.-K. et al. 2020 Classical and Quantum Gravity, 37:14
+
+\end{document}

@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+\pagestyle{empty}
+\parindent=0pt
+\parskip=5pt
+\usepackage{amsmath}
+\usepackage{xcolor}
+\begin{document}
+
+% -------------------------------------------
+% Comments
+% -------------------------------------------
+
+% Note that the actual abstract submission process must now be done
+% by filling out a web form at
+% 
+%    http://abs.aps.org/
+% 
+% However, it is recommended to prepare your abstract using this
+% template, so that all co-authors can agree on all the details.
+% Then, when the time comes to submit the abstract, you will have
+% just have to cut and paste the information from this abstract
+% into the APS web page.
+% 
+% Note that it is permissible to use latex constructs in author,
+% title, and abstract entries when filling the web form.
+%
+% For pointers about the process of submitting the abstract to the
+% APS web site, see http://www.physics.rutgers.edu/~dhv/aps_abstracts/ .
+
+
+% -------------------------------------------
+% General info and title
+% -------------------------------------------
+
+SORTING CATEGORY: L1 (Simulation Methods and Implementation) \\
+CATEGORY TYPE: Computational Physics
+
+TITLE: A Discontinuous Galerkin Method for General Relativistic Hydrodynamics
+
+% TITLENOTE:
+
+% -------------------------------------------
+% Author 1
+% -------------------------------------------
+
+NAME: Sam Dunham \\
+EMAIL: samuel.j.dunham@vanderbilt.edu \\
+AFFIL: Department of Life and Physical Sciences, Fisk University \\
+AFFIL: Department of Astronomy, Vanderbilt University
+
+% Note: Affiliations do NOT need to include the address information.
+%       I suggest to keep it short.  If you wish, it could be, e.g.,
+%       "Department of Physics and Astronomy, Rutgers University"
+%       but the shorter the better.
+
+% Note: In the case of multiple authors with the same affiliation,
+%       the affiliation should be left blank except for the last
+%       author of the series.  When it comes time to do the actual
+%       web submission, if you click "Same as Submitter" to fill
+%       out the information for the first author, you might have to
+%       erase the Affiliation information if the second author is
+%       at the same institution.
+
+% -------------------------------------------
+% Author 2 (repeat as needed for Author 3 etc)
+% -------------------------------------------
+
+NAME: Eirik Endeve \\
+EMAIL: endevee@ornl.gov \\
+AFFIL: Oak Ridge National Laboratory
+
+NAME: Anthony Mezzacappa \\
+EMAIL: mezz@utk.edu \\
+AFFIL: University of Tennessee
+
+% -------------------------------------------
+ABSTRACT:
+% -------------------------------------------
+
+Core-collapse supernovae (CCSNe) are multi-physics phenomena; the study of which provides insight into, among other things, the origin of the elements. To simulate supernova hydrodynamics we are developing a new code for solving the general relativistic (GR) hydrodynamics equations, using the discontinuous Galerkin (DG\footnote{Cockburn, B., \& Shu, C.-W. (2001). J. Sci. Comput., 16, 173}) method combined with Runge-Kutta (RK) time-stepping. The RK-DG method is high-order accurate and local in space, and can therefore achieve high spectral bandwidth in regions with unsteady smooth flows (e.g., turbulence). At the same time it can capture discontinuities, such as in the nonlinear phase of the standing accretion shock instability (SASI\footnote{Blondin, J. M., Mezzacappa, A., \& DeMarino, C. (2003). ApJ, 584, 971}). Many current simulations point to the crucial role played by the SASI in aiding the neutrino-driven CCSN explosion mechanism. The first scientific target of our new code is to further understand the SASI's development in compact GR environments. We present the initial conditions and show preliminary results. Numerically, key questions are: How well does the RK-DG method handle shocks and resolve the turbulent flows that develop from the SASI? We address these questions as well.
+
+
+\footnote{Blondin, J. M., Mezzacappa, A., \& DeMarino, C. (2003). Stability of Standing Accretion Shocks, with an Eye toward Core-Collapse Supernovae. The Astrophysical Journal, 584(2), 971--980. http://doi.org/10.1086/345812}
+
+\footnote{Cockburn, B., \& Shu, C.-W. (2001). Runge--Kutta Discontinuous Galerkin Methods for Convection-Dominated Problems. Journal of Scientific Computing, 16(3), 173--261. http://doi.org/10.1023/A:1012873910884}
+
+\end{document}

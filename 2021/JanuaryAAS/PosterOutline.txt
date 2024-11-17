@@ -1,0 +1,11 @@
+What we're doing
+Why we're doing it
+
+DG vs. FV - Use the right tool for the right job
+
+Highlights
+
+  - SASI (curvilinear coords)
+  - 2DRP (characteristic limiting)
+  - Yahil ( Poseidon)
+  - Adiabatic collapse (Poseidon, nuclear EOS)

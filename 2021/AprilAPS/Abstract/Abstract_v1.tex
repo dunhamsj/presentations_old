@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{geometry}[1in]
+
+\begin{document}
+
+\begin{center}
+Abstract (1,300 character max, currently at 1,275)
+\end{center}
+
+\begin{center}
+thornado-Hydro: A Discontinuous Galerkin Method for General Relativistic Hydrodynamics with an Eye towards Simulating Core-Collapse Supernovae
+\end{center}
+
+We present results from thornado [1], a radiation-hydrodynamics code we are developing, the ultimate goal of which is to simulate core-collapse supernovae (CCSNe) using high-order accurate discontinuous Galerkin (DG) methods [2]. thornado is the first code aiming to apply DG methods to this problem, and one goal of this research is to determine if DG methods are preferable to the industry standard finite volume methods. Here, we focus on the module that solves the hydrodynamics equations under the conformally-flat approximation to general relativity [3], and its coupling to Poseidon [4], a finite element gravity solver. We show results from the self-similar collapse of a polytropic star [5], and the adiabatic collapse of a 15 solar mass progenitor using a nuclear, tabulated equation of state (EoS), capturing the dynamics up to bounce. The results from each of these test problems are compared with their Newtonian counterparts [6]. We also discuss future work, including improving the implementation of a tabulated EoS.
+
+[1] Dunham et al. 2020 J. Phys.: Conf. Ser. 1623 012012
+
+[2] Cockburn \& Shu 2001 JSC 16 173
+
+[3] Wilson, J. R. et al. 1996 PRD 54 1317
+
+[4] Roberts et al. 2021 (in prep.)
+
+[5] Yahil 1983 ApJ 265 1047
+
+[6] Pochik et al. 2020 arXiv: 2011.04680
+
+\end{document}

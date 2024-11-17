@@ -1,0 +1,220 @@
+\providecommand{\newblock}{}
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.1
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{Mezzacappa2005}
+Mezzacappa A 2005 {\em Annual Reviews of Nuclear Particle Science\/} {\bf 55}
+  467
+
+\bibitem{Cardall2013}
+{Cardall} C~Y, {Endeve} E and {Mezzacappa} A 2013 {\em Physical Review D\/}
+  {\bf 87} 103004 (\textit{Preprint} \eprint{1209.2151})
+
+\bibitem{Shibata2011}
+{Shibata} M, {Kiuchi} K, {Sekiguchi} Y and {Suwa} Y 2011 {\em Progress of
+  Theoretical Physics\/} {\bf 125} 1255--1287 (\textit{Preprint}
+  \eprint{1104.3937})
+
+\bibitem{CockburnShu1998}
+Cockburn B and Shu C~W 1998 {\em Journal of Computational Physics\/} {\bf 141}
+  199
+
+\bibitem{HesthavenWarburtonNodalDGMethods}
+Hesthaven J~S and Warburton T 2008 {\em Nodal Discontinuous Galerkin Methods:
+  Algorithms, Analysis, and Applications\/} (Springer)
+
+\bibitem{AMReX}
+Zhang W, Almgren A, Beckner V, Bell J, Blaschke J, Chan C, Day M, Friesen B,
+  Gott K, Graves D, Katz M, Myers A, Nguyen T, Nonaka A, Rosso M, Williams S
+  and Zingale M 2019 {\em Journal of Open Source Software\/} {\bf 4} 1370 ISSN
+  2475-9066 \urlprefix\url{http://dx.doi.org/10.21105/joss.01370}
+
+\bibitem{ThompsonDuncan1993}
+{Thompson} C and {Duncan} R~C 1993 {\em The Astrophysical Journal\/} {\bf 408}
+  194
+
+\bibitem{Muller2016}
+M{\"u}ller B 2016 {\em Publications of the Astronomical Society of Australia\/}
+  {\bf 33} 1
+
+\bibitem{Dimmelmeier2002}
+Dimmelmeier H, Font J and M{\"u}ller E 2002 {\em Astronomy \& Astrophysics\/}
+  {\bf 388} 917
+
+\bibitem{AGILEBOLTZTRAN}
+{Liebend{\"o}rfer} M, {Messer} O~E~B, {Mezzacappa} A, {Bruenn} S~W, {Cardall}
+  C~Y and {Thielemann} F~K 2004 {\em The Astrophysical Journal Supplement
+  Series\/} {\bf 150} 263--316 (\textit{Preprint} \eprint{astro-ph/0207036})
+
+\bibitem{CHIMERA}
+Bruenn S, Blondin J, Hix W, Lentz E, Messer O, Mezzacappa A, Endeve E,
+  JA~Harris P~M, Budiardja R, Chertkow M and Lee C~T 2018  (\textit{Preprint}
+  \eprint{1809.05608})
+
+\bibitem{FORNAX}
+Skinner M~A, Dolence J~C, Burrows A, Radice D and Vartanyan D 2019 {\em The
+  Astrophysical Journal Supplement Series\/} {\bf 241} 7
+
+\bibitem{ALCAR}
+Just O, Obergaulinger M and Janka H~T 2015 {\em Monthly Notices of the Royal
+  Astronomical Society\/} {\bf 453} 3386
+
+\bibitem{PROMETHEUSVERTEX}
+{Rampp} M and {Janka} H~T 2002 {\em Astronomy \& Astrophysics\/} {\bf 396}
+  361--392 (\textit{Preprint} \eprint{astro-ph/0203101})
+
+\bibitem{COCONUTVERTEX}
+{M{\"u}ller} B, {Janka} H~T and {Dimmelmeier} H 2010 {\em The Astrophysical
+  Journal Supplement Series\/} {\bf 189} 104--133 (\textit{Preprint}
+  \eprint{1001.4841})
+
+\bibitem{ZELMANI}
+{Ott} C~D, {Schnetter} E, {Burrows} A, {Livne} E, {O'Connor} E and
+  {L{\"o}ffler} F 2009 {Computational models of stellar collapse and
+  core-collapse supernovae} {\em Journal of Physics Conference Series\/} ({\em
+  Journal of Physics Conference Series\/} vol 180) p 012022 (\textit{Preprint}
+  \eprint{0907.4043})
+
+\bibitem{FLASH}
+{Fryxell} B, {Olson} K, {Ricker} P, {Timmes} F~X, {Zingale} M, {Lamb} D~Q,
+  {MacNeice} P, {Rosner} R, {Truran} J~W and {Tufo} H 2000 {\em The
+  Astrophysical Journal Supplement Series\/} {\bf 131} 273--334
+
+\bibitem{GR1D}
+{O'Connor} E 2015 {\em The Astrophysical Journal Supplement Series\/} {\bf 219}
+  24 (\textit{Preprint} \eprint{1411.7058})
+
+\bibitem{Kotake}
+{Kotake} K, {Takiwaki} T, {Fischer} T, {Nakamura} K and {Mart{\'\i}nez-Pinedo}
+  G 2018 {\em The Astrophysical Journal\/} {\bf 853} 170 (\textit{Preprint}
+  \eprint{1801.02703})
+
+\bibitem{Nagakura}
+{Nagakura} H, {Sumiyoshi} K and {Yamada} S 2014 {\em The Astrophysical Journal
+  Supplement Series\/} {\bf 214} 16 (\textit{Preprint} \eprint{1407.5632})
+
+\bibitem{Dimmelmeier2006}
+Dimmelmeier H, Stergioulas N and Font J 2006 {\em Monthly Notices of the Royal
+  Astronomical Society\/} {\bf 368} 1609
+
+\bibitem{Chu2019}
+{Chu} R, {Endeve} E, {Hauck} C~D and {Mezzacappa} A 2019 {\em Journal of
+  Computational Physics\/} {\bf 389} 62--93 (\textit{Preprint}
+  \eprint{1809.06949})
+
+\bibitem{Endeve2015}
+{Endeve} E, {Hauck} C, {Xing} Y and {Mezzacappa} A 2015 {Discontinuous Galerkin
+  Methods for Neutrino Radiation Transport} {\em APS April Meeting Abstracts\/}
+  ({\em APS Meeting Abstracts\/} vol 2015) p Y14.005
+
+\bibitem{Radice2013}
+{Radice} D, {Abdikamalov} E, {Rezzolla} L and {Ott} C~D 2013 {\em Journal of
+  Computational Physics\/} {\bf 242} 648--669 (\textit{Preprint}
+  \eprint{1209.1634})
+
+\bibitem{Kitzmann2016}
+Kitzmann D, Bolte J and Patzer A 2016 {\em Astronomy \& Astrophysics\/} {\bf
+  595} A90
+
+\bibitem{Teukolsky2016}
+Teukolsky S 2016 {\em Journal of Computational Physics\/} {\bf 312} 333
+
+\bibitem{BauerDG}
+Bauer A, Schaal K, Springel V, Chandrashekar P, Pakmor R and Klingenberg C 2016
+  {\em Software for Exascale Computing--SPPEXA 2013-2015\/} (Springer)
+
+\bibitem{RezzollaZanottiRelativisticHydrodynamics}
+Rezzolla L and Zanotti O 2013 {\em Relativistic Hydrodynamics\/} (Oxford:
+  Oxford)
+
+\bibitem{Bassi2013}
+{Bassi} F, {Franchina} N, {Ghidoni} A and {Rebay} S 2013 {\em International
+  Journal for Numerical Methods in Fluids\/} {\bf 71} 1322--1339
+
+\bibitem{CockburnShu2001}
+Cockburn B and Shu C~W 2001 {\em Journal of Scientific Computing\/} {\bf 16}
+  173
+
+\bibitem{ShuOsher1988}
+Shu C~W and Osher S 1988 {\em Journal of Computational Physics\/} {\bf 77} 439
+
+\bibitem{FuShu2017}
+Fu G and Shu C~W 2017 {\em Journal of Computational Physics\/} {\bf 347} 305
+
+\bibitem{RadiceRezzolla2011}
+{Radice} D and {Rezzolla} L 2011 {\em Phys. Rev. D\/} {\bf 84} 024010
+  (\textit{Preprint} \eprint{1103.2426})
+
+\bibitem{Qin2016}
+Qin T, Shu C~W and Yang Y 2016 {\em Journal of Computational Physics\/} {\bf
+  315} 323
+
+\bibitem{RadiceRezzolla2012}
+Radice D and Rezzolla L 2012 {\em Astronomy \& Astrophysics\/} {\bf 547} A26
+
+\bibitem{MignoneBodo2005}
+{Mignone} A and {Bodo} G 2005 {\em MNRAS\/} {\bf 364} 126--136
+  (\textit{Preprint} \eprint{astro-ph/0506414})
+
+\bibitem{DelZannaBucciantini2002}
+Zanna L~D and Bucciantini N 2002 {\em Astronomy \& Astrophysics\/} {\bf 390}
+  1177
+
+\bibitem{Blondin2003}
+Blondin J, Mezzacappa A and DeMarino C 2003 {\em The Astrophysical Journal\/}
+  {\bf 584} 971
+
+\bibitem{BaumgarteShapiroNumericalRelativity}
+Baumgarte T~W and Shapiro S~L 2010 {\em Numerical Relativity: Solving
+  Einstein's Equations on the Computer\/} (Cambridge)
+
+\bibitem{Harten1983}
+Harten A, Lax P~D and Leer B~V 1983 {\em SIAM Review\/} {\bf 25} 35
+
+\bibitem{Quirk1994}
+Quirk J 1994 {\em International Journal for Numerical Methods in Fluids\/} {\bf
+  18} 555
+
+\bibitem{Muller2010}
+Müller B, Janka H~T and Dimmelmeier H 2010 {\em The Astrophysical Journal
+  Supplement Series\/} {\bf 189} 104–133 ISSN 1538-4365
+  \urlprefix\url{http://dx.doi.org/10.1088/0067-0049/189/1/104}
+
+\bibitem{Walk2006}
+{Walk} L, {Tamborra} I, {Janka} H~T and {Summa} A 2019 {\em arXiv e-prints\/}
+  arXiv:1910.12971 (\textit{Preprint} \eprint{1910.12971})
+
+\bibitem{BlondinMezzacappa2006}
+{Blondin} J~M and {Mezzacappa} A 2006 {\em The Astrophysical Journal\/} {\bf
+  642} 401--409 (\textit{Preprint} \eprint{astro-ph/0507181})
+
+\bibitem{Dumbser2014}
+Dumbser M, Zanotti O, Loub{\`e}re R and S D 2014 {\em Journal of Scientific
+  Computing\/} {\bf 278} 47
+
+\bibitem{Fambri2018}
+Fambri F, Dumbser M, K{\"o}ppel S, Rezzolla L and O Z 2018 {\em Monthly Notices
+  of the Royal Astronomical Society\/} {\bf 477} 4543
+
+\bibitem{Laiu2019}
+Laiu P, Harris J~A, Chu R and Endeve E 2019 {\em AstroNum 2019 Conference
+  Proceedings\/}
+
+\bibitem{Hunter2007}
+Hunter J~D 2007 {\em Computing in Science \& Engineering\/} {\bf 9} 90--95
+
+\bibitem{OliphantNumPy}
+Oliphant T~E 2015 {\em Guide to NumPy\/} 2nd ed (USA: CreateSpace Independent
+  Publishing Platform) ISBN 151730007X, 9781517300074
+
+\bibitem{Turk2011yt}
+{Turk} M~J, {Smith} B~D, {Oishi} J~S, {Skory} S, {Skillman} S~W, {Abel} T and
+  {Norman} M~L 2011 {\em The Astrophysical Journal Supplement Series\/} {\bf
+  192} 9 (\textit{Preprint} \eprint{1011.3514})
+
+\end{thebibliography}
